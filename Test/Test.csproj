@@ -39,9 +39,7 @@
 
 
 	<ItemGroup>
-	  <Reference Include="TestBunitTestingCompoennts">
-	    <HintPath>..\TestBunitTestingCompoennts\bin\Debug\net7.0\TestBunitTestingCompoennts.dll</HintPath>
-	  </Reference>
+	  <ProjectReference Include="..\TestBunitTestingCompoennts\TestBunitTestingCompoennts.csproj" />
 	</ItemGroup>
 
 
